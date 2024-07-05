@@ -58,10 +58,12 @@ a, a:hover{
     padding: 5px 20px;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 nav a{
     color: var(--color-cuternario);
+    font-size: 100%;
 }
 
 .nav a:hover{
@@ -69,12 +71,12 @@ nav a{
 }
 
 .logo{
-    flex: 1;
+    display: flex;
+    width: 100%;
 }
 
 .logo img{
-    width: 90px;
-    margin-right: 10px;
+    width: 3.5rem;
 }
 
 .menu{
@@ -85,21 +87,25 @@ nav a{
 
 .menu li{
     padding: 15px 13px;
-    font-size: 16px;
+
 }
 
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 900px){
     nav{
         display: flex;
         position: relative;
         padding: 15px 20px;
     }
 
+    .logo img{
+        width: 3.5rem;
+    }
+
     .menu{
         margin-top: 15px;
-        display: none;
     }
+    
 
 }
 
