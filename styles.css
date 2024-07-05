@@ -59,11 +59,12 @@ a, a:hover{
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 
 nav a{
     color: var(--color-cuternario);
-    font-size: 100%;
+    font-size: 1rem;
 }
 
 .nav a:hover{
@@ -72,7 +73,6 @@ nav a{
 
 .logo{
     display: flex;
-    width: 100%;
 }
 
 .logo img{
@@ -91,19 +91,26 @@ nav a{
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
     nav{
         display: flex;
         position: relative;
         padding: 15px 20px;
+        flex-wrap: wrap;
+    }
+
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+
     }
 
     .logo img{
         width: 3.5rem;
     }
 
-    .menu{
-        margin-top: 15px;
+    .menu li{
+        padding: 6px 6px;
     }
     
 
