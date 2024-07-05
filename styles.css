@@ -25,6 +25,7 @@ a, a:hover{
     justify-content: space-between;
     padding: 10px 25px;
     background-color: var(--color-secundario);
+    position: fixed;
 }
 .topBarra img{
     width: 20px;
@@ -60,6 +61,7 @@ a, a:hover{
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    position: fixed;
 }
 
 nav a{
