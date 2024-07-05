@@ -107,6 +107,7 @@ nav a{
 
     .logo img{
         width: 3.5rem;
+        display: none;
     }
 
     .menu li{
