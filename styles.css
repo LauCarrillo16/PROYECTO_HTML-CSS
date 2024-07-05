@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+*{
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primario: #dd247a;
+    --color-secundario: #6bd9f2;
+    --color-terciario: #0d0d0d;
+    --color-cuternario: #f2f2f2;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.topBarra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background-color: var(--color-secundario);
+}
+.topBarra img{
+    width: 20px;
+}
+
+.topBarra span{
+    color: var(--color-primario);
+    font-size: 1.1rem;
+    font-weight:bolder;
+}
+
+.topBarra ul{
+    list-style: none;
+    display: flex;
+}
+
+.topBarra li{
+    margin: 0px 5px;
+}
+
+.topBarra a{
+    color: var(--color-primario);
+}
+
+.topBarra a:hover{
+    color: var(--color-primario);
+}
+
+.nav{
+    background-color: var(--color-terciario);
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: var(--color-cuternario);
+}
+
+.nav a:hover{
+    color: var(--color-primario);
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo img{
+    width: 90px;
+    margin-right: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items:center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px 13px;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 520px){
+    nav{
+        display: flex;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .menu{
+        margin-top: 15px;
+        display: none;
+    }
+
+}
+
+
+
+
