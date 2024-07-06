@@ -112,7 +112,8 @@ video{
 
 .contenidoInicio{
     max-width: 500px;
-    color: var(--color-terciario);
+    color: #820d4b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.414);
     z-index: 2;
 }
 
@@ -123,7 +124,7 @@ video{
     font-weight: 800;
     text-align: center;
     color: var(--color-primario);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px var(--color-secundario);
 }
 
 .contenidoInicio h3{
@@ -164,6 +165,82 @@ video{
     object-fit: cover;
 }
 
+#servicios{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/fondo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.contenidoServicios{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.tituloServicios{
+    display: flex;
+    width: 70%;
+    color: var(--color-primario);
+    align-items: center;
+    justify-content: center;
+    height: 4vw;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tituloServicios h2{
+    font-size: 2em;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    text-align: center;
+    color: var(--color-primario);
+    text-shadow: 2px 2px 4px var(--color-secundario);
+}
+
+.servicio{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    width: auto;
+    height: auto;
+    column-gap: 100px;
+    row-gap: 5px;
+    align-items: center;
+}
+
+.servicio div{
+    color: var(--color-primario);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.servicio h3{
+    color: var(--color-primario);
+    text-shadow: 2px 2px 4px var(--color-secundario);
+}
+
+.imgServicio{
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 390px;
+    max-height: 200px;
+    height: auto;
+    display: block;
+}
+
 @media screen and (max-width: 600px){
     nav{
         display: flex;
@@ -186,6 +263,27 @@ video{
 
     #inicio{
         padding: 20px 0;
+    }
+
+    .servicio{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+        height: auto;
+        column-gap: 50px;
+        row-gap: 5px;
+        align-items: center;
+    }
+
+    .imgServicio{
+        border-radius: 15px;
+        transition: transform 0.3s ease;
+        width: 100%;
+        max-width: 290px;
+        max-height: 100px;
+        height: auto;
+        display: block;
     }
 
 }
