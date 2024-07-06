@@ -155,9 +155,15 @@ video{
         flex-wrap: wrap;
     }
 
-    .menu{
-        margin-top: 15px;
+    .logo img{
         display: none;
+    }
+    .menu li{
+        padding: 7px 6px;
+    }
+
+    #inicio{
+        padding: 20px 0;
     }
 
 }
