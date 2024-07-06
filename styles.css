@@ -142,6 +142,11 @@ video{
     text-align: center;
 }
 
+.contenidoInicio strong{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: anim 3s infinite linear;
+}
+
 @media screen and (max-width: 600px){
     nav{
         display: flex;
@@ -167,4 +172,41 @@ video{
     }
 
 }
+
+@keyframes anim{
+    0%{
+        color: var(--color-terciario)
+    }
+    18%{
+        color: #ffc600
+    }
+    20%{
+        color: #ffc600;
+        text-shadow: 0 0 1vw #ffc600,
+        0 0 3vw #f44336;
+    }
+    30%{
+        color: var(--color-terciario)
+    }
+    35%{
+        color: #ffc600;
+        text-shadow: 0 0 1vw #ffc600,
+        0 0 3vw #f44336;
+    }
+    70%{
+        color: var(--color-terciario)
+    }
+    80%{
+        color: #ffc600;
+        text-shadow: 0 0 1vw #ffc600,
+        0 0 3vw #f44336;
+    }
+    90%{
+        color: var(--color-terciario)
+    }
+    100%{
+        color: var(--color-terciario)
+    }
+}
+
 
