@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 *{
     font-family: "Didact Gothic", sans-serif;
@@ -19,11 +20,12 @@ a, a:hover{
     text-decoration: none;
 }
 
+
 .topBarra{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 25px;
+    padding: 7px 25px;
     background-color: var(--color-secundario);
 }
 
@@ -91,6 +93,54 @@ nav a{
 
 }
 
+#inicio {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenidoInicio{
+    max-width: 500px;
+    color: var(--color-terciario);
+    z-index: 2;
+}
+
+.contenidoInicio h2{
+    font-size: 7em;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    text-align: center;
+    color: var(--color-primario);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contenidoInicio h3{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 0 50px 0;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: var(--color-secundario);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contenidoInicio p{
+    font-size: 1em;
+    text-align: center;
+}
 
 @media screen and (max-width: 600px){
     nav{
@@ -103,22 +153,12 @@ nav a{
     nav ul{
         display: flex;
         flex-wrap: wrap;
-
     }
 
-    .logo img{
-        width: 3.5rem;
+    .menu{
+        margin-top: 15px;
         display: none;
     }
 
-    .menu li{
-        padding: 6px 6px;
-        text-align: center;
-    }
-    
-
 }
-
-
-
 
