@@ -444,6 +444,14 @@ video{
 
     #inicio{
         padding: 20px 0;
+        background-image: url(img/fondo.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #inicio video{
+        display: none;
     }
 
     #nosotros{
