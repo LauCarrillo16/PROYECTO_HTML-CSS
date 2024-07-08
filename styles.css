@@ -165,6 +165,46 @@ video{
     object-fit: cover;
 }
 
+.contenidoNosotros{
+    max-width: 500px;
+    color: #820d4b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.414);
+    z-index: 2;
+    position: relative;
+    left: 400px;
+}
+
+.contenidoNosotros h2{
+    font-size: 7em;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    text-align: center;
+    color: var(--color-primario);
+    text-shadow: 2px 2px 4px var(--color-secundario);
+}
+
+.contenidoNosotros h3{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 0 50px 0;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    color: var(--color-secundario);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contenidoNosotros p{
+    font-size: 1em;
+    text-align: center;
+}
+
+.contenidoNosotros strong{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: anim 3s infinite linear;
+}
+
 #servicios{
     position: relative;
     width: 100%;
@@ -406,6 +446,19 @@ video{
         padding: 20px 0;
     }
 
+    #nosotros{
+        padding: 30px 0;
+    }
+
+    .contenidoNosotros{
+        max-width: 500px;
+        color: #820d4b;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.414);
+        z-index: 2;
+        position: relative;
+        left: -1px;
+    }
+
     .servicio{
         display: grid;
         grid-template-rows: repeat(4, 1fr);
@@ -421,10 +474,25 @@ video{
         border-radius: 15px;
         transition: transform 0.3s ease;
         width: 100%;
-        max-width: 190px;
+        max-width: 140px;
         max-height: 80px;
         height: auto;
         display: block;
+    }
+
+    #galeria{
+        padding: 30px 0;
+    }
+
+    .contenidoGaleria{
+        min-height: 100vh;
+        position: relative;
+        align-items: center;
+        padding: 100px 0;
+    }
+
+    .slider{
+        padding: 50px 0;
     }
 
     #contacto{
