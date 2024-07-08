@@ -294,6 +294,91 @@ video{
     align-items: center;
 }
 
+#contacto{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/fondoContacto.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+#contenidoContacto{
+    max-width: 400px;
+    color: var(--color-primario)
+}
+
+#contenidoContacto h2{
+    text-align: center;
+    color: var(--color-primario);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2em;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+
+#contenidoContacto h4{
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--color-secundario);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+
+#contenidoContacto p{
+    padding: 10px 0 40px 0;
+    text-align: justify;
+}
+
+.btn-grupo a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: var(--color-secundario);
+    border-radius: 10px;
+    border: 2px solid var(--color-secundario);
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-grupo a:hover{
+    background-color: transparent;
+    color: var(--color-secundario);
+}
+
+.iconos-redes{
+    padding: 10px 20px;
+    bottom: 50px;
+}
+
+.iconos-redes a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: var(--color-secundario);
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid var(--color-secundario);
+    transition: .3s;
+}
+
+.iconos-redes a:hover{
+    transform: translateY(-5px);
+}
+
+.iconos-redes a i{
+    color: #fff;
+}
 
 
 
@@ -336,11 +421,18 @@ video{
         border-radius: 15px;
         transition: transform 0.3s ease;
         width: 100%;
-        max-width: 290px;
-        max-height: 100px;
+        max-width: 190px;
+        max-height: 80px;
         height: auto;
         display: block;
     }
+
+    #contacto{
+        padding: 0 0;
+
+    }
+
+    
 
 }
 
