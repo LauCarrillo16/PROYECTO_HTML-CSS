@@ -275,7 +275,7 @@ video{
     border-radius: 15px;
     transition: transform 0.3s ease;
     width: 100%;
-    max-width: 290px;
+    max-width: 390px;
     max-height: 150px;
     height: auto;
     display: block;
@@ -448,6 +448,14 @@ video{
 
     #nosotros{
         padding: 30px 0;
+        background-image: url(img/fondoResponsable.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #nosotros video{
+        display: none;
     }
 
     .contenidoNosotros{
@@ -457,6 +465,16 @@ video{
         z-index: 2;
         position: relative;
         left: -1px;
+    }
+
+    .contenidoNosotros p{
+        background-color: var(--color-secundario);
+        text-align: justify;
+        padding: 10px 20px;
+    }
+
+    #servicios{
+        padding: 30px 10px;
     }
 
     .servicio{
@@ -470,11 +488,16 @@ video{
         align-items: center;
     }
 
+    .servicio h3{
+        font-size: 1.5em;
+    }
+    
+
     .imgServicio{
         border-radius: 15px;
         transition: transform 0.3s ease;
         width: 100%;
-        max-width: 140px;
+        max-width: 110px;
         max-height: 80px;
         height: auto;
         display: block;
@@ -496,11 +519,13 @@ video{
     }
 
     #contacto{
-        padding: 0 0;
+        padding: 0 10px;
+        background-image: url(img/fondoResponsable.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
 
     }
-
-    
 
 }
 
