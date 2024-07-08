@@ -23,6 +23,6 @@ https://www.canva.com/design/DAGKLph_tik/synmRnMiWCTgX5jPgG08xw/watch?utm_conten
 
 ## Desarrollado 
 
-HTML - CSS
+HTML - CSS //
 Laura Carrillo - Tecnologa en Desarrollo de Sistemas Informaticos
 @cordilauoficial - Instagram 
