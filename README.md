@@ -25,4 +25,4 @@ https://www.canva.com/design/DAGKLph_tik/synmRnMiWCTgX5jPgG08xw/watch?utm_conten
 
 HTML - CSS
 Laura Carrillo - Tecnologa en Desarrollo de Sistemas Informaticos
-@coridlauoficial - Instagram 
+@cordilauoficial - Instagram 
