@@ -1,0 +1,50 @@
+[
+    {
+        "titulo": "Crispetas",
+        "cantidad": "50 personas",
+        "precio": "$50.000",
+        "imagen": "img/crispetas.jpg"
+    },
+    {
+        "titulo": "Hambrguesa",
+        "cantidad": "50 personas",
+        "precio": "$100.000",
+        "imagen": "img/hamburguesa.jpg"
+    },
+    {
+        "titulo": "Cocteles",
+        "cantidad": "50 personas",
+        "precio": "$100.000",
+        "imagen": "img/cocteles.jpg"
+    },
+    {
+        "titulo": "HotDog",
+        "cantidad": "50 personas",
+        "precio": "$100.000",
+        "imagen": "img/perros.jpg"
+    },
+    {
+        "titulo": "Waffles",
+        "cantidad": "50 personas",
+        "precio": "$50.000",
+        "imagen": "img/waffle.png"
+    },
+    {
+        "titulo": "Mango",
+        "cantidad": "50 personas",
+        "precio": "$50.000",
+        "imagen": "img/mango.jpg"
+    },
+    {
+        "titulo": "Raspados",
+        "cantidad": "50 personas",
+        "precio": "$50.000",
+        "imagen": "img/raspados.jpg"
+    },
+    {
+        "titulo": "Algodon de azucar",
+        "cantidad": "50 personas",
+        "precio": "$50.000",
+        "imagen": "img/algodon.jpg"
+    }
+]
