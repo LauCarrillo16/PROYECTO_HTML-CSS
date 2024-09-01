@@ -171,7 +171,7 @@ video{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.414);
     z-index: 2;
     position: relative;
-    left: 400px;
+    left: 50%;
 }
 
 .contenidoNosotros h2{
